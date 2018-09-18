@@ -4,7 +4,6 @@
         <title>Užsakymų sąrašas</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-
     </head>
     <body>
         <table>
@@ -33,11 +32,7 @@
 				<td><?php echo ($row['goal'] == "lose" ? "mesti svorį" : ($row['goal'] == "maintain" ? "palaikyti svorį" : "priaugti svorio"  )); ?></td>
 			</tr>
             <?php endwhile;?>
-
         </table>
-
         <br><br>
-
     </body>
-
 </html>

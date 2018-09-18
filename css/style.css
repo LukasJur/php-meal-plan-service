@@ -21,6 +21,10 @@ input[type=select]{
 
 }
 
+table,th,td{
+    border: 1px solid black;
+}
+
 .selects{
 	width: 20%;
 	overflow: hidden;
@@ -30,7 +34,4 @@ p + br {
     display: none;
 }
 
-table,th,tr,td{
-    border: 1px solid black;
-}
 

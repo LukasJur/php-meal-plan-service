@@ -29,3 +29,8 @@ input[type=select]{
 p + br {
     display: none;
 }
+
+table,th,tr,td{
+    border: 1px solid black;
+}
+

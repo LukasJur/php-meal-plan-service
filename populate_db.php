@@ -2,7 +2,7 @@
 
 // require the Faker autoloader
 require_once 'X:\php_mealplan\php-meal-plan-service\vendor\autoload.php';
-// alternatively, use another PSR-0 compliant autoloader (like the Symfony2 ClassLoader for instance)
+
 
 // use the factory to create a Faker\Generator instance
 $faker = Faker\Factory::create();
